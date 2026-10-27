@@ -1,0 +1,1 @@
+function calc(){const n=parseFloat(document.getElementById('num').value);const p=parseFloat(document.getElementById('pct').value);const r=document.getElementById('result');if(Number.isFinite(n)&&Number.isFinite(p))r.textContent=`${p}% of ${n} = ${(n*p/100).toFixed(2)}`;else r.textContent='Enter both values.';}
